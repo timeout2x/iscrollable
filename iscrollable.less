@@ -1,0 +1,16 @@
+@scroll-color: #999;
+@track-color: #333;
+
+.iscrollable { overflow: hidden !important; position: relative;
+  &:hover .scrollbar { opacity: 1; } 
+  .scrollbar { display: block; position: absolute; top: 0; right: 0; width: 6px; border-radius: 5px; background-color: @scroll-color; z-index: 20; height: 100%; opacity: 0; 
+    -webkit-transition:opacity 0.2s ease-in-out;
+    -moz-transition:opacity 0.2s ease-in-out;
+    -o-transition:opacity 0.2s ease-in-out;
+    -ms-transition:opacity 0.2s ease-in-out;  
+    transition:opacity 0.2s ease-in-out;
+  
+    .track { position: absolute; width: 100%; border-radius: 5px; top: 0; left: 0; cursor: pointer; background-color: @track-color; }
+  }
+
+}  

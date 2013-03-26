@@ -1,11 +1,15 @@
-----------------------------------------------------------------------------
 iScrollable - iOs-like scrollbar, JQuery plugin
+----------------------------------------------------------------------------
 v 1.0
 Dual licensed under the MIT and GPL licenses.
+
 ----------------------------------------------------------------------------
+
 Copyright (C) 2013 Sergey Varlamov
 https://github.com/timeout2x/
 
+Live Demo:
+http://htmlpreview.github.com/?https://github.com/timeout2x/test_slider/blob/master/index.html
 
 How to use:
 1. Include jquery:
